@@ -6,6 +6,8 @@
 ## Heading 2
 
 [Week 1](https://ucsd-cse15l-w23.github.io/week/week1/)
+![Image](https://ucsd-cse15l-w23.github.io/images/github-signup.png)
+
 > Smart words
 
 * item 1
