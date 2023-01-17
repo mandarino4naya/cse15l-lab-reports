@@ -1,4 +1,4 @@
-# Remote access tutorial:
+# Lab Report 1: Remote access tutorial
 ## Step 1
 **Installing VScode**
 > I already had VS Code on my computer before the lab. But here are the steps anyways.
