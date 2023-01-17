@@ -3,7 +3,8 @@
 **Installing VScode**
 1. Go to the following link [VS code](https://code.visualstudio.com/download)
 2. Click download button for your OS ![Download](Pasted Graphic.png)
-3. Open VS Code on your computer. That's what you should see:
+3. Open VS Code on your computer. 
+That's what you should see:
 ![VS code](VS code.png)
 ## Step 2
 **Remotely Connecting**
