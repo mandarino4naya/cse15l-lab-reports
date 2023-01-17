@@ -3,7 +3,8 @@
 **Installing VScode**
 > I already had VS Code on my computer before the lab. But here are the steps anyways.
 1. Go to the [VS code website](https://code.visualstudio.com/download)
-2. Click download button for your OS ![Download](Pasted Graphic.png)
+2. Click download button for your OS 
+![Download](Pasted Graphic.png)
 3. Open VS Code on your computer.
 That's what you should see:
 ![VS code](VS code.png)
