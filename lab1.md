@@ -41,7 +41,7 @@ both on **your** computer, and on the **remote** computer (after running ssh com
 - `cd` (changes directory to the one you type in)
 ![cd](cd.png)
 - `ls -lat` (lists all files with extra info, such as access permissions)
-![ls-lat](ls -lat.png)
+![ls-lat](ls-lat.png)
 - `ls -a` (lists all files)
 ![ls-a](ls-a.png)
 - `ls /home/linux/ieng6/cs15lwi23/cs15lwi23zzz`, where the `zzz` is substituted by your groupmate's username (access to someone else's directory *denied*)
