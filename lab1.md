@@ -36,12 +36,19 @@ That's what you should see:
 1. Run the following commands `cd`, `ls`, `pwd`, `mkdir`, and `cp` multiple times 
 both on **your** computer, and on the **remote** computer (after running ssh command described in Step 2). 
 2. Run some more commands. You may try the following list:
-- `cd ~`
-- `cd`
-- `ls -lat`
-- `ls -a`
-- `ls /home/linux/ieng6/cs15lwi23/cs15lwi23zzz`, where the `zzz` is substituted by your groupmate's username
-- `cp /home/linux/ieng6/cs15lwi23/public/hello.txt ~/`
-- `cat /home/linux/ieng6/cs15lwi23/public/hello.txt`
+- `cd ~` (returns you to your home directory)
+![cd~](cd~.png)
+- `cd` (changes directory to the one you type in)
+![cd](cd.png)
+- `ls -lat` (lists all files with extra info, such as access permissions)
+![ls-lat](ls -lat.png)
+- `ls -a` (lists all files)
+![ls-a](ls-a.png)
+- `ls /home/linux/ieng6/cs15lwi23/cs15lwi23zzz`, where the `zzz` is substituted by your groupmate's username (access to someone else's directory *denied*)
+![ls denied](ls_denied.png)
+- `cp /home/linux/ieng6/cs15lwi23/public/hello.txt ~/` (copies file from the given path to your home directory)
+![cp](cp.png)
+- `cat /home/linux/ieng6/cs15lwi23/public/hello.txt` (prints contents of given file(s))
+![cat](cat.png)
 3. Your output should look similar to this:
 ![Commands](commands.png)
