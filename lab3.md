@@ -5,22 +5,24 @@ import java.io.IOException;
 import java.net.URI;
 
 class Handler implements URLHandler {
-    // The one bit of state on the server: a number that will be manipulated by
-    // various requests.
+
     String string = "";
 
     public String handleRequest(URI url) {
-        if (url.getPath().contains("/add-message?s=")) {
-            //String[] parameters = url.getQuery().split("=");
-            String message = url.getPath().substring(21);
-            message = message.replaceAll(" HTTP.*", "");
-            message = message.replaceAll("%20", " ");
-            string += "\n" + message;
-            return string;
+        if (url.getPath().equals("/")) {
+            return String.format("Current message: %s", string);
         }
         else {
-            return "404 Not Found!";
+            System.out.println("Path: " + url.getPath());
+            if (url.getPath().contains("/add-message")) {
+                String[] parameters = url.getQuery().split("=");
+                if (parameters[0].equals("s")) {
+                    string = string + "\n" + parameters[1];
+                    return string;
+                }
+            }
         }
+        return "404 Not Found!";
     }
 }
 
@@ -39,17 +41,27 @@ class StringServer {
 
 ```
 example 1:
-![screenshot]()
+![screenshot](hey.png)
 - Which methods in your code are called?
+handleRequest and main methods are called
 - What are the relevant arguments to those methods, and the values of any relevant fields of the class?
+For main method it checks the command line args. In our case it checks whether we provided the port number for the server.
+For handleRequest method in Handler class it takes in the url as an argument. 
 - How do the values of any relevant fields of the class change from this specific request?
 If no values got changed, explain why.
+If url contains "/add-message", the query string is taken into parameters list. Then the string after "=" is added to the initial string value
+along with a new line. So, for "hey" we have "" + new line + "hey" as a result.
 example 2:
-![screenshot]()
+![screenshot](how.png)
 - Which methods in your code are called?
+handleRequest and main methods are called
 - What are the relevant arguments to those methods, and the values of any relevant fields of the class?
+For main method it checks the command line args. In our case it checks whether we provided the port number for the server.
+For handleRequest method in Handler class it takes in the url as an argument. 
 - How do the values of any relevant fields of the class change from this specific request?
 If no values got changed, explain why.
+If url contains "/add-message", the query string is taken into parameters list. Then the string after "=" is added to the initial string value
+along with a new line. So, for "how are you" we have "" + new line + "hey" + new line + "how are you" as a result.
 ## Part 2
 1) A failure-inducing input for the buggy program, as a JUnit test and any associated code
 ``` 
