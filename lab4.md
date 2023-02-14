@@ -9,7 +9,7 @@ Possible oprtions:
 
 > Pro tip: *use -r option with other oprtions to iterate through all files in a directory recursively*
 
-1. **-c**
+### **-c**
 
 what is it doing: returns a count of the lines that match a given pattern
 
@@ -24,7 +24,7 @@ grep -c 'Israel' ./written_2/travel_guides/berlitz1/HistoryJerusalem.txt
 grep -c 'Israel' ./written_2/travel_guides/berlitz1/HistoryJapan.txt
 0
 ```
-2. **-l**
+### **-l**
 
 what is it doing: returns list of a filenames that match a given pattern
 
@@ -57,7 +57,7 @@ grep -lr 'fox' ./written_2/
 ./written_2/travel_guides/berlitz2/Berlin-WhereToGo.txt
 ./written_2/travel_guides/berlitz2/Canada-WhereToGo.txt
 ```
-3. **-h**
+### **-h**
 
 what is it doing: returns the matched lines without the filenames
 
@@ -96,7 +96,7 @@ The other main street, rue des Ecouffes (medieval slang for moneylenders), compl
 kosher butchers, and even kosher pizza shops. More recent arrivals from the Jewish communities of North Africa have largely replaced
 the Ashkenazim of Eastern Europe, who themselves took the place of the Sephardim who first settled in Paris from Spain in the 13th century.
 ```
-4. **-n** 
+### **-n** 
 
 what is it doing: returns the matched lines and their line numbers
 
