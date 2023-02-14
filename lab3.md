@@ -40,6 +40,7 @@ class StringServer {
 }
 
 ```
+
 example 1:
 ![screenshot](hey.png)
 - Which methods in your code are called?
@@ -51,6 +52,7 @@ For handleRequest method in Handler class it takes in the url as an argument.
 If no values got changed, explain why.
 If url contains "/add-message", the query string is taken into parameters list. Then the string after "=" is added to the initial string value
 along with a new line. So, for "hey" we have "" + new line + "hey" as a result.
+
 example 2:
 ![screenshot](how.png)
 - Which methods in your code are called?
