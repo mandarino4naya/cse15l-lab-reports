@@ -1,5 +1,6 @@
 Hello World!
 1. [Markdown practice](wed.html)
-2. [Lab 1 report](lab1.html)
-3. [Lab 3 report](lab3.html)
-4. [Lab 4 report](lab4.html)
+2. [Lab report 1](lab1.html)
+3. [Lab report 2](lab3.html)
+4. [Lab report 3](lab4.html)
+5. [Lab report 4](lab7.html)
