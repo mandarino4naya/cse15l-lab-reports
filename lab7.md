@@ -1,15 +1,33 @@
-For the lab report this week, reproduce the task from the competition on your own.
-For each numbered step starting right after the timer (so steps 4-9), take a screenshot,
-and write down exactly which keys you pressed to get to that step. For special characters like <enter> or <tab>,
-write them in angle brackets with code formatting. Then, summarize the commands you ran and what the effect of those keypresses were.
+# Lab report 4
 
-For example, when you run the tests, you might want to use the up arrow or Ctrl-R
-to access your bash history rather than typing in the full command with classpath, etc.
-You might say something like this accompanying the screenshot for running the tests:
-
-Keys pressed: <up><up><up><up><enter>, <up><up><up><up><enter>
-
-The javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java command was 4 up in the search history,
+Step 1: `<up><up><enter>` - the  `ssh cs15lwi23***@ieng6.ucsd.edu` command was 2 up in the search history,
 so I used up arrow to access it.
-Then the java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore command was 4 up in the history,
-so I accessed and ran it in the same way.
+![screenshot](Cluster Status.png)
+Step 2: `<up>x13<enter>` - the  `git clone git@github.com:mandarino4naya/lab7.git` command was 13 up in the search history,
+so I used up arrow to access it.
+![screenshot](Cloning into.png)
+Step 3: `cd l<tab> <enter>` - to access `cd lab7/` command I typed `cd l`,
+and hit tab to autofill it.
+![screenshot]([cs15lwi23adr@ieng6-201]~507$ cd lab7.png)
+Step 4: `<up>x13<enter>` - the  `javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java` command was 13 up in the search history,
+so I used up arrow to access it.
+![screenshot](Pasted Graphic 3.png)
+Step 5: `<up>x12<enter>` - the  `java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests` command was 12 up in the search history,
+so I used up arrow to access it.
+![screenshot](Pasted Graphic 4.png)
+Step 6: `nano L<tab>.j<tab><enter>` - to access `nano ListExamples.java` command I typed `nano L`, hit tab, typed `.j` and hit tab again.
+![screenshot](Pasted Graphic 5.png)
+Step 7:`<ctrl+W>while(index2<enter>`, then `<down><down><right>x8<backspace>2`, then `<ctrl+O><enter><ctrl+X>` - I searched for the right spot in the code. Then I hit arrow down 2 times and arrow right 8 times. I hit backspace once and typed 2 instead of 1. Finally I saved changes and quit nano.
+![screenshot](Pasted Graphic 6.png)
+Step 8: `<up><up><enter>` - the  `javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java` command was 2 up in the search history,
+so I used up arrow to access it.
+![screenshot](Pasted Graphic 7.png)
+Step 9: `<up><up><enter>` - the  `java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests` command was 2 up in the search history,
+so I used up arrow to access it.
+![screenshot](Pasted Graphic 8.png)
+Step 10: `git add L<tab>.j<tab><enter>` - the  `git add ListExamples.java"` I used tab to access it.
+![screenshot](Pasted Graphic 9.png)
+Step 11: `git commit -m "Fixed"<enter>` - the  `git commit -m "Fixed"` I typed it in full to access it.
+![screenshot](on your username and hostname. Please check that they are accurate..png)
+Step 12: `git push o<tab> m<tab><enter>` - the  `git push origin main` I used <tab> to access it.
+![screenshot](push.png)
