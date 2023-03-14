@@ -33,4 +33,5 @@ echo "All done!"
 1) To complete this task I only have to run two lines of code:
 - log in to the ieng6 server using `ssh cs15lwi23adr@ieng6.ucsd.edu`
 - run the bash script using `bash bash_demo.sh` (use <tab> to autofill the line for the script name)
-2) The result is in the screenshot: (pivo5.jpeg)
+
+2) The result is in the screenshot: ![Result](pivo5.jpeg)
