@@ -4,3 +4,4 @@ Hello World!
 3. [Lab report 2](lab3.html)
 4. [Lab report 3](lab4.html)
 5. [Lab report 4](lab7.html)
+6. [Lab report 5](lab5.html)
